@@ -1,0 +1,416 @@
+body {
+  padding:0px; 
+  margin:0; 
+  background: #000;
+  font-size:14px; 
+  font-family:Arial, Sans-serif;
+  margin-left: 50px;
+}
+#otstyp{
+  margin-left: 665px;
+}
+#basic {
+  width:960px; 
+  min-height:950px; 
+  margin:0 auto; 
+  padding:20px 20px 20px 20px; 
+  background:#fff;
+}
+#fl{
+  border:0;
+  height: 20px;
+  margin-top: 22px;
+  margin-left: 50px;
+}
+#fl2{
+  color: #fff;
+  border:0;
+  height: 20px;
+  margin-top: -22px;
+  margin-left: -10px;
+}
+#tg {
+  border:0;
+  height: 20px;
+  margin-top: 22px;
+  margin-left: -60px;
+}
+#fb{
+  border:0;
+  height: 20px;
+  margin-top: 22px;
+  margin-left: -10px;
+}
+a {
+  color:#ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+  text-decoration:none;
+}
+#top-menu {
+  width:960px; 
+  height:74px; 
+}
+.bg-1 ul li {
+  float:left; 
+  padding:0 20px 0 0;
+}
+.bg-1 ul li a {
+  display:block; 
+  height:40px; 
+  padding:24px 27px 0 27px; 
+  color:#ffffff; 
+  text-decoration:none; 
+  text-transform:uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-1 ul li a:hover {
+  color:rgb(0, 0, 0); 
+  background:#ffffff;
+}
+#bg-2 ul li {
+  float:left; 
+  padding:0 30px 0 0;
+}
+#bg-2 ul li a {
+  display:block; 
+  height:40px; 
+  padding:21px 27px 0 27px; 
+  color:#ffffff; 
+  text-decoration:none; 
+  text-transform:uppercase;
+  margin-left: 350px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right{
+  color: #fff;
+  margin-top: -340px;
+  margin-left: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#o_cebe{
+  width: 511px;
+  height: 340px;
+  margin-top: 70px;
+  margin-left: 800px;
+}
+.left{
+  margin-top: 80px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#developer{
+  margin-top: -2000px;
+  width: 50px;
+  margin-left: -1040px;
+  display:inline-block;
+}
+#developer2{
+  margin-top: 10px;
+  width: 50px;
+  margin-left: -40px;
+  display:inline-block;
+}
+#developer3{
+  margin-bottom: -610px;
+  width: 50px;
+  margin-left: 1320px;
+  display:inline-block;
+}
+#developer4{
+  margin-bottom: -985px;
+  width: 50px;
+  margin-left: 1320px;
+  display:inline-block;
+}
+#developer5{
+  margin-bottom: -1355px;
+  width: 50px;
+  margin-left: 1320px;
+  display:inline-block;
+}
+#developer6{
+  margin-bottom: -170px;
+  width: 50px;
+  margin-left: 1320px;
+  display:inline-block;
+}
+.container{
+  padding-left: 20%;
+  padding-top:10%;
+  padding-bottom: 10%;
+}
+
+.dropbtn {
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 19px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  width: 140px;
+}
+
+.dropbtn
+{
+background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+padding-left: 25px;
+width: 20px;
+}
+
+.dropbtn::after {
+  background: rgba(255, 255, 255, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+  content: "";
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  width: 16px;
+}
+
+.dropdown-content a:first-child
+{
+background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.dropdown-content a:last-child
+{
+background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 2px 0 2px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #000000}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h2{
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ad1{
+  writing-mode: vertical-lr;
+  margin-left: 1200px;
+  margin-top: -300px;
+  font-size: 50px;
+}
+.aa{
+  color: #fff;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.ab{
+  color: #fff;
+  margin-left: 70px;
+  margin-top: -300px;
+}
+.aa2{
+  color: #fff;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.ab2{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.git{
+  width: 30px;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+.ab3{
+  color: #fff;
+  margin-left: 75px;
+  margin-top: 150px;
+}
+.aa3{
+  color: #fff;
+  margin-left: 70px;
+}
+.ab4{
+  color: #fff;
+  margin-left: 900px;
+  margin-top: -130px;
+}
+.aa4{
+  color: #fff;
+  margin-left: 900px;
+}
+.visual{
+  height: 20px;
+  margin-left: 5px;
+}
+.visual_code{
+  height: 20px;
+  margin-left: 5px;
+}
+.figma{
+  height: 20px;
+  margin-left: 5px;
+}
+.github1{
+  height: 20px;
+  margin-left: 5px;
+}
+.gitlab{
+  height: 20px;
+  margin-left: 5px;
+}
+.h21{
+  margin-left: 75px;
+  margin-top: 130px;
+}
+.pr1{
+  height: 300px;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+.pr2{
+  height: 300px;
+  margin-left: 170px;
+}
+.pr3{
+  height: 300px;
+  margin-left: 170px;
+}
+.p4{
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.profile{
+  height: 50px;
+  margin-left: 600px;
+}
+.contacts{
+  margin-left: 70px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.contacts1{
+  margin-left: 70px;
+  margin-bottom: -20px;
+  font-size: 25px;
+}
+.contacts2{
+  margin-left: 70px;
+  font-size: 25px;
+}
+.tik2{
+  margin-top: -20px;
+  height: 35px;
+  margin-left: 70px;
+}
+input[type="text"] {
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 880px;
+}
+input[type="button"]{
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  margin: 20px;
+  font-size: 20px;
+}
+.textarea{
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 890px;
+}
+.call{
+text-align: center;
+margin-top: -350px;
+}
+.telefon{
+color: #fff;
+margin-left: 70px;
+margin-top: 30px;
+line-height: 1px
+}
+.tg2{
+  height: 20px;
+}
+.po4ta{
+  height: 20px;
+}
+.po4ta2{
+  height: 70px;
+  margin-left: 470px;
+}
+.footer1{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.footer2{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 270px;
+  margin-top: -28px;
+}
+.footer3{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 380px;
+  margin-top: -28px;
+}
+.footer4{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 540px;
+  margin-top: -28px;
+}
+.footer5{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 640px;
+  margin-top: -28px;
+}
+.submit1{
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 890px;
+}
+.gr7{
+  height: 200px;
+  margin-left: 530px;
+  margin-bottom: -370px;
+}
